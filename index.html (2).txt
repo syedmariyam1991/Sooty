@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariyam Sooty | Landing Page</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      scroll-behavior:smooth;
+    }
+
+    /* Hero Section */
+    .hero{
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(135deg,#2563eb,#9333ea);
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:3rem;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:1.2rem;
+      opacity:0.9;
+    }
+
+    .hero a{
+      margin-top:20px;
+      padding:12px 30px;
+      background:white;
+      color:#000;
+      text-decoration:none;
+      border-radius:30px;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .hero a:hover{
+      transform:scale(1.05);
+    }
+
+    /* Features */
+    .features{
+      padding:60px 8%;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:25px;
+      background:#020617;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:30px;
+      border-radius:16px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+      box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    /* Contact */
+    .contact{
+      padding:70px 20px;
+      text-align:center;
+      background:#020617;
+    }
+
+    .contact h2{
+      font-size:2rem;
+      margin-bottom:20px;
+    }
+
+    .form-box{
+      max-width:400px;
+      margin:auto;
+    }
+
+    .form-box input,
+    .form-box button{
+      width:100%;
+      padding:14px;
+      margin:10px 0;
+      border-radius:12px;
+      border:none;
+      outline:none;
+    }
+
+    .form-box input{
+      background:#1e293b;
+      color:white;
+    }
+
+    .form-box button{
+      background:linear-gradient(135deg,#2563eb,#9333ea);
+      color:white;
+      font-weight:600;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .form-box button:hover{
+      opacity:0.9;
+      transform:scale(1.02);
+    }
+
+    footer{
+      text-align:center;
+      padding:15px;
+      background:#020617;
+      font-size:14px;
+      opacity:0.7;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Mariyam Sooty</h1>
+    <p>High Converting Modern Landing Page</p>
+    <a href="#contact">Get Started</a>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="card">⚡ Fast Setup</div>
+    <div class="card">📱 Fully Responsive</div>
+    <div class="card">🎯 High Conversion</div>
+    <div class="card">🚀 Modern Design</div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="form-box">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <button>Submit</button>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Mariyam Sooty | All Rights Reserved
+  </footer>
+
+</body>
+</html>
